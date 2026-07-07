@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2da clase</title>
+</head>
+
+<body>
+    <nav>Aqui viene el menu</nav>
+    <header>Formulario</header>
+    <main>
+        <h2>Bienvenido a mi página</h2>
+        <p>Es una pagina de entrenamiento</p>
+        <section>
+            <form action="">
+                <!--Formulario Normal-->
+                <input type="text" disabled value="no modificable">
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" placeholder="ingrese nombre" required maxlength="8">
+                <label for="email">Correo Electronico</label>
+                <input type="email" name="email" placeholder="Su correo" autocomplete="off">
+                <label for="telefono">telefono</label>
+                <input type="number" name="telefono" placeholder="Su telefono" min="1" max="8" autocomplete="off">
+                <label for="fecha">fecha de nacimiento</label>
+                <input type="date" name="fecha_de_nacimiento" placeholder="Su fecha de nacimiento">
+                <label for="pass">Contraseña</label>
+                <input type="password" name="pass" placeholder="ingrese su contraseña">
+                <hr>
+                <!--Checkbox-->
+                <input type="checkbox" id="suscripcion" name="suscripcion" value="aceptar">
+                <label for="suscripcion">Acepto las condiciones</label>
+                <hr>
+                <!--Radio Button-->
+                <input type="radio" name="opcion" id="op1" value="op1">
+                <label for="op1">Opcion 1</label>
+                <input type="radio" name="opcion" id="op2" value="op2">
+                <label for="op2">Opcion2</label>
+                <!--Crea un boton para enviar el formulario-->
+                <input type="button" value="enviar" onclick="enviarformulario">
+                <br>
+                <!--Etiqueta button puede ser utilizada para activar una accion-->
+                <button>haz click</button>
+                <!--Equiqueta button con type ="submit" - Boton que envia el formulario-->
+                <button type="submit">Enviar</button>
+                <br>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

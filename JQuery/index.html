@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muestrario Completo de jQuery</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/jquery.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>🎨 Muestrario jQuery</h1>
+        <p class="subtitle">Todos los efectos principales en una sola página</p>
+
+        <!-- EFECTO 1: Hide/Show -->
+        <div class="effect-section">
+            <h3>1. Hide / Show / Toggle</h3>
+            <p>Ocultar, mostrar o alternar la visibilidad de elementos instantáneamente o con animación.</p>
+            <div class="demo-box">
+                <div class="target" id="hideTarget">Soy un box</div>
+            </div>
+            <button onclick="hideEffect()">Hide</button>
+            <button onclick="showEffect()">Show</button>
+            <button onclick="toggleEffect()">Toggle</button>
+            <button class="reset" onclick="resetHide()">Reset</button>
+            <div class="code">
+                <span class="comment">// Ocultar/mostrar con velocidad</span><br>
+                <span class="selector">$("#hideTarget")</span>.<span class="method">hide</span>(<span
+                    class="param">1000</span>);<br>
+                <span class="selector">$("#hideTarget")</span>.<span class="method">show</span>(<span
+                    class="param">"slow"</span>);<br>
+                <span class="selector">$("#hideTarget")</span>.<span class="method">toggle</span>();
+            </div>
+        </div>
+
+        <!-- EFECTO 2: Fade -->
+        <div class="effect-section">
+            <h3>2. Fade In / Fade Out / Fade Toggle</h3>
+            <p>Desvanecer elementos modificando su opacidad suavemente.</p>
+            <div class="demo-box">
+                <div class="target" id="fadeTarget" style="opacity: 1;">Fade Box</div>
+            </div>
+            <button onclick="fadeInEffect()">Fade In</button>
+            <button onclick="fadeOutEffect()">Fade Out</button>
+            <button onclick="fadeToggleEffect()">Fade Toggle</button>
+            <button onclick="fadeToEffect()">Fade To 0.5</button>
+            <button class="reset" onclick="resetFade()">Reset</button>
+            <div class="code">
+                <span class="selector">$("#fadeTarget")</span>.<span class="method">fadeIn</span>(<span
+                    class="param">1000</span>);<br>
+                <span class="selector">$("#fadeTarget")</span>.<span class="method">fadeOut</span>(<span
+                    class="param">"slow"</span>);<br>
+                <span class="selector">$("#fadeTarget")</span>.<span class="method">fadeTo</span>(<span
+                    class="param">1000, 0.5</span>);
+            </div>
+        </div>
+
+        <!-- EFECTO 3: Slide -->
+        <div class="effect-section">
+            <h3>3. Slide Up / Slide Down / Slide Toggle</h3>
+            <p>Deslizar elementos hacia arriba o abajo modificando su altura.</p>
+            <div class="demo-box" style="display: block;">
+                <div class="target" id="slideTarget" style="display: block;">Slide Box</div>
+            </div>
+            <button onclick="slideUpEffect()">Slide Up</button>
+            <button onclick="slideDownEffect()">Slide Down</button>
+            <button onclick="slideToggleEffect()">Slide Toggle</button>
+            <button class="reset" onclick="resetSlide()">Reset</button>
+            <div class="code">
+                <span class="selector">$("#slideTarget")</span>.<span class="method">slideUp</span>(<span
+                    class="param">1000</span>);<br>
+                <span class="selector">$("#slideTarget")</span>.<span class="method">slideDown</span>(<span
+                    class="param">"fast"</span>);<br>
+                <span class="selector">$("#slideTarget")</span>.<span class="method">slideToggle</span>();
+            </div>
+        </div>
+
+        <!-- EFECTO 4: Animate -->
+        <div class="effect-section">
+            <h3>4. Animate (Animación Personalizada)</h3>
+            <p>Animar propiedades CSS numéricas como posición, tamaño, márgenes, etc.</p>
+            <div class="demo-box" style="overflow: hidden; height: 150px;">
+                <div class="target" id="animateBox" style="position: relative; left: 0;">Animate</div>
+            </div>
+            <button onclick="animateRight()">Mover Derecha</button>
+            <button onclick="animateLeft()">Mover Izquierda</button>
+            <button onclick="animateGrow()">Crecer</button>
+            <button onclick="animateComplex()">Complejo</button>
+            <button class="reset" onclick="resetAnimate()">Reset</button>
+            <div class="code">
+                <span class="selector">$("#animateBox")</span>.<span class="method">animate</span>({<br>
+                &nbsp;&nbsp;<span class="param">left</span>: <span class="param">"+=200"</span>,<br>
+                &nbsp;&nbsp;<span class="param">width</span>: <span class="param">"150px"</span>,<br>
+                &nbsp;&nbsp;<span class="param">opacity</span>: <span class="param">0.5</span><br>
+                }, <span class="param">1000</span>);
+            </div>
+        </div>
+
+        <!-- EFECTO 5: Delay -->
+        <div class="effect-section">
+            <h3>5. Delay (Retraso entre efectos)</h3>
+            <p>Hacer pausas entre efectos encadenados. ¡Solo funciona con efectos!</p>
+            <div class="demo-box">
+                <div class="target" id="delayTarget">Delay Box</div>
+            </div>
+            <button onclick="delayEffect()">Ejecutar Secuencia</button>
+            <button class="reset" onclick="resetDelay()">Reset</button>
+            <div class="code">
+                <span class="selector">$("#delayTarget")</span><br>
+                &nbsp;&nbsp;.<span class="method">slideUp</span>(<span class="param">500</span>)<br>
+                &nbsp;&nbsp;.<span class="method">delay</span>(<span class="param">2000</span>)<br>
+                &nbsp;&nbsp;.<span class="method">slideDown</span>(<span class="param">500</span>);
+            </div>
+        </div>
+
+        <!-- EFECTO 6: Toggle Class -->
+        <div class="effect-section">
+            <h3>6. Toggle Class (Cambiar clases CSS)</h3>
+            <p>Agregar o remover clases CSS para cambiar estilos dinámicamente.</p>
+            <div class="demo-box">
+                <div class="target" id="classTarget">Toggle Class</div>
+            </div>
+            <button onclick="toggleClassEffect()">Toggle Class</button>
+            <button onclick="addClassEffect()">Add Class</button>
+            <button onclick="removeClassEffect()">Remove Class</button>
+            <button class="reset" onclick="resetClass()">Reset</button>
+            <div class="code">
+                <span class="selector">$("#classTarget")</span>.<span class="method">toggleClass</span>(<span
+                    class="param">"active"</span>);<br>
+                <span class="selector">$("#classTarget")</span>.<span class="method">addClass</span>(<span
+                    class="param">"highlight"</span>);<br>
+                <span class="selector">$("#classTarget")</span>.<span class="method">removeClass</span>(<span
+                    class="param">"highlight"</span>);
+            </div>
+        </div>
+
+        <!-- EFECTO 7: Callback -->
+        <div class="effect-section">
+            <h3>7. Callback (Función después del efecto)</h3>
+            <p>Ejecutar código cuando un efecto termina completamente.</p>
+            <div class="demo-box">
+                <div class="target" id="callbackTarget">Callback</div>
+            </div>
+            <button onclick="callbackEffect()">Ejecutar con Callback</button>
+            <div class="code">
+                <span class="selector">$("#callbackTarget")</span>.<span class="method">fadeOut</span>(<span
+                    class="param">1000, function() {</span><br>
+                &nbsp;&nbsp;<span class="method">alert</span>(<span class="param">"¡Efecto terminado!"</span>);<br>
+                &nbsp;&nbsp;<span class="selector">$(this)</span>.<span class="method">fadeIn</span>();<br>
+                });
+            </div>
+        </div>
+
+        <!-- EFECTO 8: Chain (Encadenamiento) -->
+        <div class="effect-section">
+            <h3>8. Chain (Encadenar múltiples efectos)</h3>
+            <p>Encadenar varios efectos y métodos en una sola línea.</p>
+            <div class="demo-box">
+                <div class="target" id="chainTarget">Chain</div>
+            </div>
+            <button onclick="chainEffect()">Ejecutar Cadena</button>
+            <button class="reset" onclick="resetChain()">Reset</button>
+            <div class="code">
+                <span class="selector">$("#chainTarget")</span><br>
+                &nbsp;&nbsp;.<span class="method">slideUp</span>(<span class="param">300</span>)<br>
+                &nbsp;&nbsp;.<span class="method">delay</span>(<span class="param">500</span>)<br>
+                &nbsp;&nbsp;.<span class="method">slideDown</span>(<span class="param">300</span>)<br>
+                &nbsp;&nbsp;.<span class="method">css</span>(<span class="param">{ background: "red" }</span>);
+            </div>
+        </div>
+
+    </div>
+
+    <!-- jQuery desde CDN -->
+
+</body>
+
+</html>

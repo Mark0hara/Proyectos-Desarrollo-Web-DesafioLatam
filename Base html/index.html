@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplo de Inline-Block</title>
+    <style>
+        /* Convertimos los elementos a inline-block */
+        .item {
+            display:inline-block;
+            /* Comportamiento híbrido */
+            width: 150px;
+            /* Permite definir ancho */
+            height: 80px;
+            /* Permite definir alto */
+            margin: 10px;
+            /* Admite márgenes */
+            padding: 10px;
+            /* Admite padding */
+            background-color: #e3e3ff;
+            /* Color de fondo */
+            border: 1px solid #777;
+            /* Borde visible */
+            vertical-align: top;
+            /* Alinear elementos */
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Ejemplo de elementos con display:inline-block</h2>
+    <div class="item">Elemento 1</div>
+    <div class="item">Elemento 2</div>
+    <div class="item">Elemento 3</div>
+</body>
+
+
+<style>
+    /* Estilo base para todos */
+    .caja {
+        background-color: #e3e3ff;
+        border: 2px solid #333;
+        padding: 10px;
+        margin: 5px;
+        width: 150px;
+        /* Veremos quién respeta esto */
+        height: 60px;
+        /* Veremos quién respeta esto */
+    }
+
+    /* Los 3 displays diferentes */
+    .block {
+        display: block;
+    }
+
+    .inline {
+        display: inline;
+    }
+
+    .inline-block {
+        display: inline-block;
+    }
+</style>
+</head>
+
+<body>
+
+    <h2>🔴 DISPLAY: BLOCK</h2>
+    <div class="caja block">Block 1</div>
+    <div class="caja block">Block 2</div>
+    <div class="caja block">Block 3</div>
+
+    <hr>
+
+    <h2>🟢 DISPLAY: INLINE</h2>
+    <div class="caja inline">Inline 1</div>
+    <div class="caja inline">Inline 2</div>
+    <div class="caja inline">Inline 3</div>
+
+    <hr>
+
+    <h2>🔵 DISPLAY: INLINE-BLOCK</h2>
+    <div class="caja inline-block">Inline-Block 1</div>
+    <div class="caja inline-block">Inline-Block 2</div>
+    <div class="caja inline-block">Inline-Block 3</div>
+
+</body>
+
+</html>

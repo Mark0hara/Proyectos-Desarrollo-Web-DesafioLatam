@@ -1,0 +1,212 @@
+body {
+    background: linear-gradient(135deg, #10dde4, #000000);
+    font-family: Arial;
+    margin: 20px;
+    line-height: 1.6;
+    max-width: 1450px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    min-height: 100vh;
+}
+
+header {
+    background: linear-gradient(135deg, #067377, #000000);
+    color: white;
+    text-align: center;
+    padding: 40px 20px 30px;
+    border-radius: 15px 15px 0 0
+}
+
+header h2 {
+    font-size: 1.2rem;
+    font-weight: 300;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    opacity: 0.9;
+    margin-bottom: 5px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin: 10px 0 20px;
+}
+
+header img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 4px solid white;
+    object-fit: cover;
+}
+
+.contact {
+    background: linear-gradient(135deg, #ffffff, #067377);
+    padding: 15px 20px;
+    text-align: center;
+    border-radius: 0 0 15px 15px;
+    border: 2px solid black;
+    margin-bottom: 25px;
+}
+
+.contact a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.indice {
+    color: #ffffff;
+    font-size: 1.1rem;
+    margin: 20px 0 8px 0;
+    padding-left: 5px;
+    padding-left: 12px;
+}
+
+.indice ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.indice ul li {
+    display: inline;
+}
+
+.indice ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 8px 15px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.indice ul li a:hover {
+    background: white;
+    color: #067377;
+}
+
+.perfil {
+    background: white;
+    padding: 25px 30px;
+    margin: 20px 0;
+    border-radius: 50px;
+    border-left: 4px solid #067377;
+}
+
+.perfil h2 {
+    border-bottom: 3px solid #e2e8f0;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    position: relative;
+}
+
+.perfil p {
+    margin: 0 0 15px 0;
+    padding-left: 15px;
+}
+
+.perfil ul li {
+    margin: 10px 0;
+    padding-left: 8px;
+}
+
+.experiencia {
+    background: white;
+    padding: 25px 30px;
+    margin: 20px 0;
+    border-radius: 50px;
+    border-left: 4px solid #067377;
+}
+
+.experiencia h4 {
+    color: #000000;
+    font-size: 1.1rem;
+    margin: 20px 0 8px 0;
+    padding-left: 5px;
+    border-left: 3px solid #067377;
+    padding-left: 12px;
+}
+
+.experiencia p {
+    margin: 0 0 15px 0;
+    padding-left: 15px;
+}
+
+.formacion {
+    background: white;
+    padding: 25px 30px;
+    margin: 20px 0;
+    border-radius: 50px;
+    border-left: 4px solid #067377;
+}
+
+.formacion-item .fecha {
+    color: #067377;
+    font-size: 0.8rem;
+    margin: 0 0 15px 0;
+    margin-top: 5px;
+    padding-left: 15px;
+    border-left: 3px solid #067377;
+}
+
+.competencias {
+    background: white;
+    padding: 25px 30px;
+    margin: 20px 0;
+    border-radius: 50px;
+    border-left: 4px solid #067377;
+}
+
+.competencias ul {
+    padding-left: 25px;
+    margin: 10px 0;
+}
+
+.competencias ul li {
+    margin: 10px 0;
+    padding-left: 8px;
+}
+
+.habilidades {
+    background: white;
+    padding: 25px 30px;
+    margin: 20px 0;
+    border-radius: 50px;
+    border-left: 4px solid #067377;
+}
+
+.habilidades ul {
+    padding-left: 25px;
+    margin: 10px 0;
+}
+
+.habilidades ul li {
+    margin: 10px 0;
+    padding-left: 8px;
+    list-style-type: disc;
+}
+
+.fuente {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #0dccd3, #000000);
+    color: white;
+    border-radius: 15px 15px 15px 15px;
+    border: 2px solid white;
+}
+
+.fuente a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 8px 20px;
+    border: 2px solid white;
+    border-radius: 20px;
+}

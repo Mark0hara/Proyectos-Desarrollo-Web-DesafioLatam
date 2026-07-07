@@ -1,0 +1,21 @@
+:root {
+    --black: #000;
+    --white: #fff;
+    --danger: #dc3545;
+    --gray-dark: #373a3c;
+    --gray-light: #dddddd;
+}
+body {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+}
+.nav-link {
+    color: #dddddd
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+}
+.logo {
+    font-family: 'Lobster', cursive;
+}

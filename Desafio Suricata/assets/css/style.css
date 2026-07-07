@@ -1,0 +1,50 @@
+/* Reset y estilos base */
+body {
+    font-family: 'Open Sans', sans-serif;
+    --color-dark: #212529;
+    --color-white: #ffffff;
+    --color-pink: #e83e8c;
+    --color-info: #17a2b8;
+    top: 0px;
+    left: 0px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.navbar {
+    background-color: var(--color-pink);
+    padding: 1rem 0;
+}
+
+.card {
+    border: none;
+    border-radius: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-title {
+    color: var(--color-dark);
+    font-weight: 700;
+}
+
+.card-text {
+    color: var(--color-dark);
+    font-weight: 400;
+    font-size: 0.95rem;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+
+.bg-suricata-pink {
+    background-color: #e83e8c;
+
+}

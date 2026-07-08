@@ -1,6 +1,19 @@
-for numero1 in range(10):
-    print(f"La tabla del {numero1} es:____ \n")
+print("=== Generador de Tablas de Multiplicar ===")
 
-    for numero2 in range(10):
-        print(f"{numero1} * {numero2} = {numero1 * numero2}")
-
+while True:
+    numero = int(input("\n¿Qué tabla deseas ver? (0 para salir): "))
+    
+    if numero == 0:
+        print("¡Hasta luego!")
+        break
+    
+    print(f"\n--- Tabla del {numero} ---")
+    for i in range(1, 13):
+        print(f"{numero} x {i} = {numero * i}")
+    
+    # Preguntar si desea continuar
+    continuar = input("\n¿Deseas ver otra tabla? (s/n): ").lower()
+    
+    if continuar == "n":
+        print("¡Hasta luego!")
+        break

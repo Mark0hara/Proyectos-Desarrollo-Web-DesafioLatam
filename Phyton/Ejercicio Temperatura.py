@@ -11,7 +11,6 @@ while True:
         print("¡Alerta! La temperatura es demasiado alta. Se recomienda apagar el sistema.")
         accion = input("¿Activar enfriamiento? (s/n): ")
         if accion == "s":
-        # Reduces temperatura
             temperatura -= 10
         elif accion == "n":
             break

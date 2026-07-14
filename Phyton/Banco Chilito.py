@@ -1,0 +1,6 @@
+Print(input("=== BANCO CHILITO ==="))
+print("\nMenu Principal")
+print("1 - mostrar saldo")
+print("2 - retirar dinero")
+print("3 - cambiar contraseña")
+print("4 - Salir")

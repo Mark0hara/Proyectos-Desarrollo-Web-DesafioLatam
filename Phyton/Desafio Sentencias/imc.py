@@ -19,5 +19,3 @@ else:
     print("Obesidad Grado III")
 
 print(f"Su IMC es {round(imc, 2)}")
-
- //puse de ejemplo python imc.py 81 178 y me da de resultado "Su IMC es 25.64"

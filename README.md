@@ -90,7 +90,7 @@ FullStack-Training/
 | Git | ✅ |
 | GitHub | ✅ |
 | GitHub Pages | ✅ |
-| JavaScript | ⏳ |
+| JavaScript | ✅ |
 | Python | ⏳ |
 | Advanced Python | ⏳ |
 | SQL & Relational Databases | ⏳ |
@@ -128,7 +128,7 @@ FullStack-Training/
 - ✅ Iguana Page
 - ✅ Suricata
 - ✅ Ricomida
-- 🔄 Viajes Chile
+- ✅ Viajes Chile
 
 ---
 

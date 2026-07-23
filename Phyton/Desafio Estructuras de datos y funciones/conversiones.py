@@ -11,7 +11,7 @@ monto_clp = float(sys.argv[4])
 tasas_conversion = {
     "Soles": tasa_sol,
     "Pesos Argentinos": tasa_ars,
-    "Dólares": tasa_us
+    "Dólares": tasa_usd
 }
 
 print(f"Los {int(monto_clp)} pesos equivalen a :")

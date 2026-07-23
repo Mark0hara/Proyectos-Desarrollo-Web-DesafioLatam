@@ -1,6 +1,6 @@
 import sys
 if len(sys.argv) != 5:
-    print("Error: Debe ingresar 4 argumentos. Ejemplo: python conversiones.py 0.0046 0.093 0.0013 10000")
+    print("Error: Debe ingresar 4 argumentos: tasa_sol, tasa_ars, tasa_usd y monto_clp")
     sys.exit(1)
 
 tasa_sol = float(sys.argv[1])

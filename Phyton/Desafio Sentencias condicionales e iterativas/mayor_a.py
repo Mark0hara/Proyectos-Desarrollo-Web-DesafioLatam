@@ -1,4 +1,4 @@
-# mayor_a.py
+
 import sys
 
 # Diccionario de ventas proporcionado

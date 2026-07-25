@@ -18,8 +18,6 @@ def analizar_stock(stock_minimo, *bodegas, **reajustes):
         "inventario_final": stock_consolidado,
         "alertas_reposicion": alertas
     }
-
-# ============ EJEMPLO DE USO ============
 bodega_central = {"teclado": 15, "mouse": 8, "monitor": 5}
 bodega_norte = {"teclado": 10, "mouse": 12, "monitor": 3}
 bodega_sur = {"teclado": 5, "monitor": 7}

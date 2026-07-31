@@ -13,3 +13,7 @@ class Cuenta:
             self.saldo -= monto
             return True
         return False
+
+
+#Son los mas comunes, tienen acceso a los atributos y al estado del objeto 
+# particular que los invioca a traves del parametro obligatorio self

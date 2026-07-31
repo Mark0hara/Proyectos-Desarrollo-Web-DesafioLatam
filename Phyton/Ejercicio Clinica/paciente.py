@@ -25,3 +25,22 @@ def fono(self):
 @property
 def historial(self) -> list:
         return self._historial 
+
+@nombre.setter
+def nombre(self, nombre:str):
+        self._nombre = nombre
+
+@edad.setter
+def edad(self, edad:int):   
+        self._edad = edad   
+
+@direccion.setter
+def direccion(self, direccion:str):
+        self._direccion = direccion
+
+@fono.setter
+def fono(self, fono:str):
+        self._fono = fono
+
+def __str__(self):
+        return (f"datos del paciente: {self._nombre}, Edad: {self._edad}, Dirección: {self._direccion}, Teléfono: {self._fono}")

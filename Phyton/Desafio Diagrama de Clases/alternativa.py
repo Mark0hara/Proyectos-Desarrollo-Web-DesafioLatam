@@ -1,7 +1,7 @@
 class Alternativa:
     def __init__(self, contenido, ayuda=None):
-        self.contenido = contenido   # consulta y modificación libre
-        self.ayuda = ayuda           # opcional
+        self.contenido = contenido   
+        self.ayuda = ayuda           
 
     def mostrar(self):
         print(f"- {self.contenido}")

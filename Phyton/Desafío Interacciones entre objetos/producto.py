@@ -2,7 +2,6 @@ class Producto:
     def __init__(self, nombre: str, precio: int, stock: int = 0):
         self.__nombre = nombre
         self.__precio = precio
-        # El stock no puede ser menor a 0
         self.__stock = stock if stock >= 0 else 0
 
     @property

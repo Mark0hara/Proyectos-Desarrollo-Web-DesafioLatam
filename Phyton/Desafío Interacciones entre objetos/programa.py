@@ -25,7 +25,6 @@ def main():
     tienda = crear_tienda()
     print(f"\n✅ Tienda '{tienda.nombre}' creada exitosamente.\n")
 
-    # Ingreso inicial de productos
     while True:
         print("--- INGRESO DE PRODUCTOS ---")
         nombre_prod = input("Nombre del producto: ")
@@ -39,7 +38,6 @@ def main():
         if continuar != 's':
             break
 
-    # Menú principal
     while True:
         print("\n=== MENÚ PRINCIPAL ===")
         print("1. Listar productos")

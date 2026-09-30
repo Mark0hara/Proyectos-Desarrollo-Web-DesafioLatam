@@ -1,0 +1,21 @@
+<!-- empleados/templates/empleados/lista.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Empleados</title>
+</head>
+<body>
+    <h1>Nómina de Empleados de la Institución</h1>
+    
+    <ul>
+        <!-- Iteramos sobre la lista que pasamos en el contexto -->
+        {% for empleado in empleados %}
+            <li>{{ empleado }}</li>
+        {% empty %}
+            <li>No hay empleados registrados.</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

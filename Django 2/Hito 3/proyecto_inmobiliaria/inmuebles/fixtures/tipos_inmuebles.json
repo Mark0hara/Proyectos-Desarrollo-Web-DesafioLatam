@@ -1,0 +1,6 @@
+[
+  {"model": "inmuebles.tipoinmueble", "pk": 1, "fields": {"nombre": "Casa", "descripcion": "Vivienda independiente con terreno propio"}},
+  {"model": "inmuebles.tipoinmueble", "pk": 2, "fields": {"nombre": "Departamento", "descripcion": "Unidad habitacional dentro de un edificio"}},
+  {"model": "inmuebles.tipoinmueble", "pk": 3, "fields": {"nombre": "Oficina", "descripcion": "Espacio destinado a uso comercial o profesional"}},
+  {"model": "inmuebles.tipoinmueble", "pk": 4, "fields": {"nombre": "Local", "descripcion": "Espacio comercial a pie de calle"}}
+]

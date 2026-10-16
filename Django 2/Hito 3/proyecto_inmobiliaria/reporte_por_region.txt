@@ -1,0 +1,23 @@
+REPORTE DE INMUEBLES PARA ARRIENDO POR REGIÓN
+=======================================================
+
+REGIÓN: Araucanía
+----------------------------------------
+  [Temuco] Depto. Temuco - Departamento céntrico, 2 dormitorios, calefacción central.
+
+REGIÓN: Biobío
+----------------------------------------
+  [Concepción] Casa Concepción - Casa amplia cerca de la universidad, 3 dormitorios.
+
+REGIÓN: Metropolitana de Santiago
+----------------------------------------
+  [Las Condes] Oficina Las Condes - Oficina moderna en torre corporativa, 50m2.
+  [Providencia] Depto. Providencia centro - Departamento 2D1B, luminoso, cercano a metro.
+  [Santiago] Depto. Santiago centro - Departamento estudio, ideal para estudiantes.
+  [Ñuñoa] Casa Ñuñoa tranquila - Casa de 3 dormitorios con patio y estacionamiento.
+
+REGIÓN: Valparaíso
+----------------------------------------
+  [Valparaíso] Casa Valparaíso - Casa patrimonial con vista al mar, 4 dormitorios.
+
+Total de inmuebles disponibles: 7

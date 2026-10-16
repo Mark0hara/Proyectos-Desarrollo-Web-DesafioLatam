@@ -1,0 +1,39 @@
+REPORTE DE INMUEBLES PARA ARRIENDO POR COMUNA
+=======================================================
+
+COMUNA: Concepción
+----------------------------------------
+  - Casa Concepción
+    Casa amplia cerca de la universidad, 3 dormitorios.
+
+COMUNA: Las Condes
+----------------------------------------
+  - Oficina Las Condes
+    Oficina moderna en torre corporativa, 50m2.
+
+COMUNA: Providencia
+----------------------------------------
+  - Depto. Providencia centro
+    Departamento 2D1B, luminoso, cercano a metro.
+
+COMUNA: Santiago
+----------------------------------------
+  - Depto. Santiago centro
+    Departamento estudio, ideal para estudiantes.
+
+COMUNA: Temuco
+----------------------------------------
+  - Depto. Temuco
+    Departamento céntrico, 2 dormitorios, calefacción central.
+
+COMUNA: Valparaíso
+----------------------------------------
+  - Casa Valparaíso
+    Casa patrimonial con vista al mar, 4 dormitorios.
+
+COMUNA: Ñuñoa
+----------------------------------------
+  - Casa Ñuñoa tranquila
+    Casa de 3 dormitorios con patio y estacionamiento.
+
+Total de inmuebles disponibles: 7

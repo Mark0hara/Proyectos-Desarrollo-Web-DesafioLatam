@@ -1,0 +1,18 @@
+[
+  {"model": "inmuebles.region", "pk": 1,  "fields": {"nombre": "Arica y Parinacota"}},
+  {"model": "inmuebles.region", "pk": 2,  "fields": {"nombre": "Tarapacá"}},
+  {"model": "inmuebles.region", "pk": 3,  "fields": {"nombre": "Antofagasta"}},
+  {"model": "inmuebles.region", "pk": 4,  "fields": {"nombre": "Atacama"}},
+  {"model": "inmuebles.region", "pk": 5,  "fields": {"nombre": "Coquimbo"}},
+  {"model": "inmuebles.region", "pk": 6,  "fields": {"nombre": "Valparaíso"}},
+  {"model": "inmuebles.region", "pk": 7,  "fields": {"nombre": "Metropolitana de Santiago"}},
+  {"model": "inmuebles.region", "pk": 8,  "fields": {"nombre": "O'Higgins"}},
+  {"model": "inmuebles.region", "pk": 9,  "fields": {"nombre": "Maule"}},
+  {"model": "inmuebles.region", "pk": 10, "fields": {"nombre": "Ñuble"}},
+  {"model": "inmuebles.region", "pk": 11, "fields": {"nombre": "Biobío"}},
+  {"model": "inmuebles.region", "pk": 12, "fields": {"nombre": "Araucanía"}},
+  {"model": "inmuebles.region", "pk": 13, "fields": {"nombre": "Los Ríos"}},
+  {"model": "inmuebles.region", "pk": 14, "fields": {"nombre": "Los Lagos"}},
+  {"model": "inmuebles.region", "pk": 15, "fields": {"nombre": "Aysén"}},
+  {"model": "inmuebles.region", "pk": 16, "fields": {"nombre": "Magallanes"}}
+]

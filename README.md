@@ -46,29 +46,23 @@ Mi experiencia en TI me ha permitido comprender la importancia de la continuidad
 
 ## 📂 Estructura del repositorio
 
-El repositorio está organizado por áreas de aprendizaje y proyectos, conservando en cada carpeta sus propios archivos y materiales asociados.
+El repositorio está organizado cronológicamente por áreas de aprendizaje y proyectos, conservando en cada carpeta sus propios archivos y materiales asociados.
 
 | Directorio | Descripción |
 |---|---|
-| [`1 SQL`](./1%20SQL/) | Ejercicios, consultas SQL y material de bases de datos relacionales. |
-| [`2 Django`](./2%20Django/) | Desafíos y proyectos relacionados con Django. |
-| [`Base html`](./Base%20html/) | Archivos y prácticas de fundamentos HTML. |
-| [`Desafio Curriculum`](./Desafio%20Curriculum/) | Construcción de una página de currículum utilizando tecnologías web. |
-| [`Desafio Cuppon`](./Desafio%20Cuppon/) | Maquetación web utilizando Bootstrap. |
-| [`Desafio Olivia`](./Desafio%20Olivia/) | Proyecto práctico de desarrollo web. |
-| [`Desafio Ricomida`](./Desafio%20Ricomida/) | Maquetación y diseño de una página web. |
-| [`Desafio Suricata`](./Desafio%20Suricata/) | Ejercicio de construcción de interfaces web. |
-| [`Desafio iguana`](./Desafio%20iguana/) | Página web desarrollada con HTML y CSS. |
-| [`Desafio lugares de chile`](./Desafio%20lugares%20de%20chile/) | Proyecto web relacionado con lugares de Chile. |
-| [`Desafio Notas Finales js`](./Desafio%20Notas%20Finales%20js/) | Ejercicio de programación utilizando JavaScript. |
-| [`Github`](./Github/) | Prácticas relacionadas con Git y GitHub. |
-| [`Javascript`](./Javascript/) | Ejercicios y desafíos de JavaScript. |
-| [`JQuery`](./JQuery/) | Prácticas de manipulación e interactividad con jQuery. |
-| [`Django 2`](./Django%202/) | Hitos y entregas de desarrollo Full Stack con Django (Portal de Arriendos). |
-| [`PostgreSQL`](./PostgreSQL/) | Ejercicios y material de trabajo con PostgreSQL. |
-| [`Pstgre + Django`](./Pstgre%20%2B%20Django/) | Prácticas de integración entre bases de datos y Django. |
-| [`Phyton`](./Phyton/) | Material y ejercicios de Python. |
+| [`0-Tuto Github`](./0-Tuto%20Github/) | Prácticas y tutoriales iniciales de control de versiones con Git y GitHub. |
+| [`1-A Tuto-HTML`](./1-A%20Tuto-HTML/) | Fundamentos y tutoriales de estructura semántica con HTML5. |
+| [`1-B Desafios HTML`](./1-B%20Desafios%20HTML/) | Desafíos prácticos de maquetación web (incluye proyectos como Curriculum, Cuppon, Iguana, Suricata, Ricomida y Lugares de Chile). |
+| [`2-Javascript`](./2-Javascript/) | Ejercicios y desafíos de lógica de programación y manipulación del DOM (incluye el desafío "Notas Finales"). |
+| [`3-JQuery`](./3-JQuery/) | Prácticas de manipulación e interactividad web utilizando la librería jQuery. |
+| [`4-Phyton`](./4-Phyton/) | Material, ejercicios y desafíos de sentencias y fundamentos en Python. |
+| [`5-A Django`](./5-A%20Django/) | Fundamentos, tutoriales y configuración inicial del framework Django. |
+| [`5-B Desafios Django`](./5-B%20Desafios%20Django/) | Hitos y entregas de desarrollo Full Stack (incluye el proyecto **Portal de Arriendos** con MVC, ORM y filtrado geográfico). |
+| [`6-SQL`](./6-SQL/) | Ejercicios, consultas y material de bases de datos relacionales. |
+| [`7-PostgreSQL`](./7-PostgreSQL/) | Ejercicios y material de trabajo específico con el motor de base de datos PostgreSQL. |
+| [`8-Pstgre + Django`](./8-Pstgre%20%2B%20Django/) | Prácticas de integración y configuración entre bases de datos PostgreSQL y Django. |
 
+> *Nota: La estructura numerada refleja el orden progresivo de aprendizaje en el programa. Dentro de cada carpeta se encuentran los archivos, entregas y documentaciones correspondientes.*
 ---
 
 ## 🌟 Proyectos Destacados

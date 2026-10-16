@@ -8,56 +8,45 @@
 
 Repositorio personal que reúne proyectos, desafíos y ejercicios prácticos desarrollados durante mi proceso de formación en **Desarrollo Web y tecnologías Full Stack con Desafío Latam**.
 
-El repositorio documenta mi evolución técnica desde la construcción de páginas web con HTML, CSS y Bootstrap hasta la programación con JavaScript, el trabajo con bases de datos y el desarrollo de aplicaciones utilizando Python y Django.
-
-El propósito es mantener un registro organizado de mi trabajo, demostrar la aplicación práctica de los conocimientos adquiridos y disponer de una base para continuar desarrollando proyectos de software.
+Este portafolio documenta mi evolución técnica, desde la construcción de páginas web con HTML, CSS y Bootstrap, hasta la programación con JavaScript, el trabajo con bases de datos relacionales y el desarrollo de aplicaciones web completas utilizando Python y Django (Patrón MVC y ORM).
 
 ---
 
 ## Sobre mí
 
-Soy **Marco Jara**, Ingeniero de Soporte TI con experiencia en soporte técnico, infraestructura, redes y servicios cloud. Actualmente, complemento mi perfil con conocimientos de programación, desarrollo web y gestión de bases de datos.
+Soy **Marco Jara**, Ingeniero de Soporte TI con experiencia en soporte técnico, infraestructura, redes y servicios cloud. Actualmente, complemento mi perfil con conocimientos sólidos de programación, desarrollo web full stack y gestión de bases de datos.
 
-Mi experiencia en TI me ha permitido comprender la importancia de la continuidad operativa, la resolución de problemas, la documentación técnica y el mantenimiento de soluciones. A través de este repositorio, busco ampliar esas competencias hacia el desarrollo de software.
+Mi experiencia en TI me ha permitido comprender la importancia de la continuidad operativa, la resolución de problemas, la documentación técnica y el mantenimiento de soluciones. A través de este repositorio, busco ampliar esas competencias hacia el desarrollo de software, integrando infraestructura y cloud con programación para construir soluciones funcionales, mantenibles y orientadas a necesidades reales.
 
-Mi objetivo es integrar conocimientos de infraestructura y cloud con programación, bases de datos y desarrollo de aplicaciones para construir soluciones funcionales, mantenibles y orientadas a necesidades reales.
+---
 
 ## Tecnologías y herramientas
 
 ### Frontend
+- **HTML5:** Estructura semántica y organización del contenido.
+- **CSS3:** Estilos, maquetación y presentación de interfaces.
+- **Bootstrap 5:** Componentes, utilidades, grillas y diseño 100% responsivo.
+- **JavaScript:** Fundamentos de programación, manipulación del DOM y lógica.
+- **jQuery:** Manipulación de elementos e interactividad web.
 
-- **HTML5:** estructura semántica y organización del contenido.
-- **CSS3:** estilos, maquetación y presentación de interfaces.
-- **Bootstrap 5:** componentes, utilidades, grillas y diseño responsivo.
-- **JavaScript:** fundamentos de programación, manipulación del DOM y lógica de aplicaciones.
-- **jQuery:** introducción a la manipulación de elementos e interactividad web.
+### Backend y Bases de Datos
+- **Python:** Fundamentos de programación y desarrollo de soluciones.
+- **Django:** Desarrollo de aplicaciones web (Vistas, Rutas, Plantillas, Modelos).
+- **Django ORM:** Interacción con bases de datos mediante modelos y consultas optimizadas.
+- **CRUD:** Operaciones completas de creación, consulta, actualización y eliminación.
+- **SQL / PostgreSQL / SQLite:** Consultas, manipulación de datos y persistencia relacional.
 
-### Backend
-
-- **Python:** fundamentos de programación y desarrollo de soluciones.
-- **Django:** desarrollo de aplicaciones web mediante vistas, rutas, plantillas y modelos.
-- **Django ORM:** interacción con bases de datos mediante modelos y consultas.
-- **CRUD:** operaciones de creación, consulta, actualización y eliminación de registros.
-
-### Bases de datos
-
-- **SQL:** consultas y manipulación de datos relacionales.
-- **PostgreSQL:** trabajo con bases de datos relacionales.
-- **SQLite:** persistencia de datos en proyectos de desarrollo.
-
-### Herramientas de desarrollo
-
-- **Git y GitHub:** control de versiones y administración del código fuente.
-- **GitHub Pages:** publicación de sitios web estáticos, cuando corresponde.
-- **Visual Studio Code:** entorno de desarrollo.
-- **Terminal:** navegación y gestión de archivos mediante comandos.
-- **Entornos virtuales de Python:** aislamiento de dependencias para proyectos Python.
+### Herramientas de Desarrollo
+- **Git y GitHub:** Control de versiones y administración del código fuente.
+- **GitHub Pages:** Publicación de sitios web estáticos.
+- **Visual Studio Code:** Entorno de desarrollo principal.
+- **Entornos virtuales (venv):** Aislamiento de dependencias en proyectos Python.
 
 ---
 
 ## Estructura del repositorio
 
-El repositorio está organizado por áreas de aprendizaje y proyectos. Cada carpeta conserva sus propios archivos y materiales asociados.
+El repositorio está organizado por áreas de aprendizaje y proyectos, conservando en cada carpeta sus propios archivos y materiales asociados.
 
 | Directorio | Descripción |
 |---|---|
@@ -75,163 +64,88 @@ El repositorio está organizado por áreas de aprendizaje y proyectos. Cada carp
 | [`Github`](./Github/) | Prácticas relacionadas con Git y GitHub. |
 | [`Javascript`](./Javascript/) | Ejercicios y desafíos de JavaScript. |
 | [`JQuery`](./JQuery/) | Prácticas de manipulación e interactividad con jQuery. |
-| [`Django 2`](./Django%202/) | Hitos y entregas de desarrollo con Django. |
+| [`Django 2`](./Django%202/) | Hitos y entregas de desarrollo Full Stack con Django (Portal de Arriendos). |
 | [`PostgreSQL`](./PostgreSQL/) | Ejercicios y material de trabajo con PostgreSQL. |
 | [`Pstgre + Django`](./Pstgre%20%2B%20Django/) | Prácticas de integración entre bases de datos y Django. |
 | [`Phyton`](./Phyton/) | Material y ejercicios de Python. |
 
-> La estructura refleja los directorios principales del repositorio. Dentro de cada carpeta se encuentran los archivos y entregas correspondientes.
+---
+
+## Proyectos Destacados
+
+### 1. Desarrollo Frontend (HTML, CSS, Bootstrap, JS)
+Conjunto de proyectos prácticos orientados a la construcción, presentación e interactividad de páginas web.
+- **Proyectos:** Currículum web, Cuppon, Iguana, Suricata, Ricomida, Lugares de Chile.
+- **Competencias:** Estructuración semántica, estilos CSS, diseño responsivo (mobile-first), manipulación del DOM y manejo de eventos.
+
+### 2. Proyecto Full Stack: Portal de Arriendos (Django + ORM)
+Aplicación web completa para la gestión y consulta de propiedades, integrando frontend, backend y base de datos. Desarrollada para cumplir con los requerimientos de los Hitos 4 y 5.
+
+**Tecnologías:** Python, Django, Django ORM, Bootstrap 5, SQLite.
+
+**Funcionalidades implementadas (Cumplimiento de Rúbricas):**
+- **Gestión de Usuarios (Hito 4 MVC):** Vista de login, vista de registro, redireccionamiento de URLs tras autenticación y despliegue de datos del usuario en su perfil personal.
+- **Modificación de Datos (Hito 4 MVC):** Página personal para Arrendatarios y Arrendadores con formularios para actualizar y modificar sus datos personales.
+- **Agregar Inmuebles (Hito 4 ORM):** Página web con rutas, objeto de formulario y función para guardar nuevas viviendas por parte del arrendador.
+- **Actualizar/Borrar Inmuebles (Hito 4 ORM):** Página web con rutas, formularios basados en el modelo y funciones para actualizar o eliminar registros existentes (con validación de permisos de dueño).
+- **Ver Oferta Disponible (Hito 4 ORM):** Página web pública con vista y controlador que enlistan las viviendas disponibles para los arrendatarios.
+- **Filtrado Geográfico (Hito 5):** Sistema de filtrado dinámico y dependiente de inmuebles por **Región y Comuna** de Chile.
+- **Scripts de Soporte (Hito 4 ORM):** `poblar_datos.py` para levantar información geográfica de Chile y `reportes.py` para generar reportes analíticos sobre la aplicación.
 
 ---
 
-## Proyectos destacados
+## Cumplimiento de Requerimientos (Checklist para Evaluación)
 
-### 1. Desarrollo web con HTML, CSS y Bootstrap
-
-Conjunto de proyectos prácticos orientados a la construcción y presentación de páginas web.
-
-**Proyectos incluidos:**
-- Currículum web.
-- Cuppon.
-- Iguana.
-- Suricata.
-- Ricomida.
-- Lugares de Chile.
-
-**Competencias trabajadas:**
-- Estructuración de páginas con HTML.
-- Aplicación de estilos mediante CSS.
-- Construcción de interfaces utilizando Bootstrap.
-- Organización del contenido y los recursos de cada proyecto.
-- Adaptación de interfaces a distintos tamaños de pantalla, según cada implementación.
-
-### 2. Programación con JavaScript y jQuery
-
-Ejercicios enfocados en incorporar lógica e interactividad a las aplicaciones web.
-
-**Áreas de trabajo:**
-- Fundamentos del lenguaje JavaScript.
-- Manipulación del DOM.
-- Manejo de eventos.
-- Resolución de desafíos mediante programación.
-- Introducción a jQuery para manipular elementos de una página.
-
-### 3. Bases de datos y SQL
-
-Ejercicios y material práctico relacionados con bases de datos relacionales.
-
-**Áreas de trabajo:**
-- Consultas SQL.
-- Recuperación y manipulación de información.
-- Fundamentos del modelo relacional.
-- Uso de PostgreSQL.
-- Preparación para integrar datos con aplicaciones desarrolladas en Python y Django.
-
-### 4. Desarrollo backend con Python y Django
-
-Proyectos y entregas organizados en las carpetas de Django del repositorio.
-
-**Áreas de trabajo:**
-- Organización de proyectos Django.
-- Modelos, vistas, rutas y plantillas.
-- Interacción con bases de datos mediante ORM.
-- Operaciones CRUD.
-- Integración con bases de datos relacionales.
-
-Estos proyectos representan el paso desde las páginas web estáticas hacia el desarrollo de aplicaciones con lógica de servidor y persistencia de datos.
+- [x] **Portafolio:** Reúne todo lo anteriormente hecho, aplicando mejoras y buenas prácticas de la industria.
+- [x] **Perfil de GitHub:** Cuenta con nombre real (Marco Jara), fotografía/avatar, información profesional (intereses y búsqueda) y enlaces a LinkedIn y portafolio web.
+- [x] **Trabajos Cargados:** Repositorio con múltiples proyectos prácticos correctamente cargados, incluyendo el proyecto Full Stack de Django.
+- [x] **Hito 4 MVC:** Templates de perfil, login, registro, redirección y edición de datos personales funcionando.
+- [x] **Hito 4 ORM:** CRUD completo de inmuebles, enlistado de oferta y scripts de poblado/reportes.
+- [x] **Hito 5 Presentación:** Demostración funcional del servidor, filtrado por comuna/región y exposición de dificultades resueltas (ej: validación de permisos de objeto y filtros dependientes en ORM).
 
 ---
-
-## Proyecto Full Stack: Portal de Arriendos
-
-Uno de los objetivos de mi formación es desarrollar aplicaciones web que integren frontend, backend y bases de datos.
-
-El proyecto **Portal de Arriendos** se plantea como una aplicación para la gestión y consulta de propiedades, con funcionalidades orientadas a arrendadores y arrendatarios.
-
-**Tecnologías asociadas:** Python, Django, Django ORM, Bootstrap y SQLite, según la implementación documentada del proyecto.
-
-### Funcionalidades contempladas
-
-- Gestión de usuarios y perfiles.
-- Administración de información de inmuebles.
-- Operaciones CRUD sobre registros.
-- Validaciones de permisos para las operaciones correspondientes.
-- Consultas y filtros relacionados con la ubicación de las propiedades.
-- Persistencia de información mediante una base de datos relacional.
-
-El objetivo técnico es aplicar los conceptos de desarrollo Full Stack en una solución que conecte la interfaz de usuario con la lógica de negocio y la capa de datos.
-
-> Para revisar el código y las funcionalidades definitivas, consulta las carpetas de Django del repositorio. La disponibilidad de cada característica depende de la versión implementada en los archivos correspondientes.
-
----
-
-## Competencias desarrolladas
-
-- **Desarrollo frontend:** construcción y organización de páginas web.
-- **Diseño responsivo:** aplicación de herramientas CSS y Bootstrap para adaptar interfaces.
-- **Programación:** resolución de problemas mediante JavaScript y Python.
-- **Desarrollo backend:** introducción a la arquitectura de aplicaciones web con Django.
-- **Bases de datos:** consultas SQL e interacción con sistemas relacionales.
-- **Control de versiones:** gestión del código mediante Git y GitHub.
-- **Resolución de problemas:** aplicación práctica de conceptos a través de ejercicios y desafíos.
-- **Documentación técnica:** organización de proyectos para facilitar su revisión y mantenimiento.
 
 ## Ejecución de los proyectos
 
-Los pasos de ejecución dependen de la tecnología utilizada en cada carpeta.
-
 ### Proyectos HTML, CSS y JavaScript
-
 1. Abre la carpeta del proyecto.
-2. Localiza el archivo `index.html`.
-3. Ábrelo en un navegador web.
-4. Si el proyecto utiliza recursos externos o requiere un servidor local, sigue las instrucciones específicas de esa carpeta.
+2. Localiza el archivo `index.html` y ábrelo en un navegador web.
 
-### Proyectos Python y Django
-
+### Proyectos Python y Django (Portal de Arriendos)
 1. Instala una versión compatible de Python.
 2. Abre la carpeta que contiene el proyecto Django.
-3. Crea y activa un entorno virtual.
-4. Instala las dependencias declaradas en el proyecto, si existe un archivo `requirements.txt`.
-5. Configura la base de datos según los ajustes de la aplicación.
-6. Ejecuta las migraciones necesarias.
-7. Inicia el servidor de desarrollo con `python manage.py runserver`, desde el directorio que contiene `manage.py`.
-
-Los comandos pueden variar según la estructura y configuración de cada proyecto.
+3. Crea y activa un entorno virtual (`python -m venv venv` y activar según SO).
+4. Instala las dependencias: `pip install -r requirements.txt`.
+5. Ejecuta las migraciones: `python manage.py migrate`.
+6. (Opcional) Poblar datos de prueba: `python poblar_datos.py`.
+7. Inicia el servidor: `python manage.py runserver`.
 
 ### Proyectos SQL y PostgreSQL
-
 1. Abre los archivos `.sql` de la carpeta correspondiente.
-2. Utiliza PostgreSQL y una herramienta compatible, como pgAdmin, cuando el ejercicio lo requiera.
-3. Configura la base de datos y ejecuta las consultas según las instrucciones de cada desafío.
+2. Utiliza PostgreSQL (ej. pgAdmin) para configurar la base de datos y ejecutar las consultas.
 
 ---
 
-## Estado del repositorio
-
-Este repositorio reúne los proyectos y ejercicios desarrollados durante mi proceso de formación. Las carpetas se mantienen como evidencia del trabajo realizado y como referencia para futuras mejoras.
-
-El estado de cada proyecto debe evaluarse individualmente según sus archivos, funcionalidades y documentación. La existencia de una carpeta en el repositorio no implica necesariamente que la aplicación esté desplegada en producción.
-
 ## Objetivos profesionales
 
-- Consolidar fundamentos de programación y desarrollo web.
-- Desarrollar aplicaciones Full Stack con Python y Django.
-- Mejorar el diseño y la mantenibilidad del código.
-- Profundizar en SQL y modelado de bases de datos.
-- Integrar aplicaciones con servicios cloud y entornos de despliegue.
-- Complementar mi experiencia en soporte TI, redes e infraestructura con competencias de desarrollo de software.
+- Consolidar fundamentos de programación y desarrollo web full stack.
+- Desarrollar aplicaciones escalables con Python y Django.
+- Mejorar el diseño, la seguridad y la mantenibilidad del código.
+- Profundizar en SQL y modelado de bases de datos relacionales.
+- Integrar aplicaciones con servicios cloud (AWS) y entornos de despliegue.
+- Complementar mi experiencia en soporte TI e infraestructura con competencias de desarrollo de software.
+
+---
 
 ## Autor
 
-**Marco Jara**
-
+**Marco Jara**  
 Ingeniero de Soporte TI | Cloud & Infrastructure | Networking | Desarrollo de Software
 
 - **GitHub:** [@Mark0hara](https://github.com/Mark0hara)
 - **LinkedIn:** [Perfil profesional](https://www.linkedin.com/in/markoharasba580/)
-- **Portafolio:** [mark-o-hara-it.vercel.app](https://mark-o-hara-it.vercel.app/)
+- **Portafolio Web:** [mark-o-hara-it.vercel.app](https://mark-o-hara-it.vercel.app/)
 
 ---
 
-*Este repositorio refleja mi aprendizaje práctico, la evolución de mis habilidades y mi compromiso con el desarrollo profesional continuo.*
+*Este repositorio refleja mi aprendizaje práctico, la evolución de mis habilidades y mi compromiso con el desarrollo profesional continuo. Cada commit es un paso más hacia la excelencia en la ingeniería de software.*

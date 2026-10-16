@@ -1,0 +1,71 @@
+{% extends 'usuarios/base.html' %}
+{% block title %}Inmuebles Disponibles{% endblock %}
+
+{% block content %}
+<h2 class="mb-4">🏠 Inmuebles Disponibles</h2>
+<!-- BLOQUE DE FILTRADO DEPENDIENTE -->
+<div class="card shadow-sm mb-4 border-primary">
+    <div class="card-body">
+        <h5 class="card-title text-primary mb-3">🔍 Filtrar por ubicación</h5>
+        <form method="GET" action="{% url 'listar_inmuebles' %}" class="row g-3 align-items-end">
+            <div class="col-md-5">
+                <label for="region" class="form-label fw-bold">Región</label>
+                <select name="region" id="region" class="form-select" onchange="this.form.submit()">
+                    <option value="">Todas las regiones</option>
+                    {% for r in regiones %}
+                        <option value="{{ r }}" {% if r == region_seleccionada %}selected{% endif %}>
+                            {{ r }}
+                        </option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="col-md-5">
+                <label for="comuna" class="form-label fw-bold">Comuna</label>
+                <select name="comuna" id="comuna" class="form-select">
+                    <option value="">Todas las comunas</option>
+                    {% for c in comunas %}
+                        <option value="{{ c }}" {% if c == comuna_seleccionada %}selected{% endif %}>
+                            {{ c }}
+                        </option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="col-md-2">
+                <button type="submit" class="btn btn-primary w-100">Filtrar</button>
+            </div>
+        </form>
+        <small class="text-muted mt-2 d-block">
+            💡 Tip: Selecciona una región primero para ver solo sus comunas.
+        </small>
+    </div>
+</div>
+<!-- FIN DEL BLOQUE DE FILTRADO -->
+<div class="row g-4">
+    {% for inmueble in inmuebles %}
+    <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+            <div class="card-body">
+                <h5 class="card-title">{{ inmueble.titulo }}</h5>
+                <h6 class="card-subtitle mb-2 text-muted">{{ inmueble.tipo }} - {{ inmueble.comuna }}</h6>
+                <p class="card-text">{{ inmueble.descripcion|truncatechars:100 }}</p>
+                <p class="fw-bold text-primary">${{ inmueble.precio }}</p>
+                
+                {% if user.is_authenticated and user.arrendador %}
+                <hr>
+                <a href="{% url 'editar_inmueble' inmueble.id %}" class="btn btn-sm btn-warning">Editar</a>
+                <a href="{% url 'eliminar_inmueble' inmueble.id %}" class="btn btn-sm btn-danger">Borrar</a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    {% empty %}
+    <p>No hay inmuebles disponibles en este momento.</p>
+    {% endfor %}
+</div>
+
+{% if user.is_authenticated and user.arrendador %}
+<div class="mt-4">
+    <a href="{% url 'crear_inmueble' %}" class="btn btn-success btn-lg">+ Agregar Nuevo Inmueble</a>
+</div>
+{% endif %}
+{% endblock %}
